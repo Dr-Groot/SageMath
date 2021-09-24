@@ -31,6 +31,18 @@ Lets say we want to make a Complete Graph with 5 vertices then we will go with *
 
 ![Screenshot 2021-09-24 at 7 53 47 PM](https://user-images.githubusercontent.com/63160825/134690696-44ace409-b013-4f96-81cc-27d8df47c7a9.png)
 
+Lets define a variable K5 and store **graphs.CompleteGraph(5)** in it. And to display the K5 we use **K5.show()**
+
+![Screenshot 2021-09-24 at 7 56 50 PM](https://user-images.githubusercontent.com/63160825/134691186-8331ed54-af11-47d3-8619-06bb58b1c956.png)
+
+Lets make it more excited by building a **3D COMPLETE GRAPH** with 5 Vertice just going with **K5.show3d()**.
+
+![Screenshot 2021-09-24 at 8 09 18 PM](https://user-images.githubusercontent.com/63160825/134693275-5e084a5f-3cac-4b5c-b60c-6c2e413aa8d5.png)
+
+Amazing thing about 3d Graph is it you can Rotate it using your cursor. 
+(3D Graphs are supported by Safari and Windows Explorer Web Browser.)
+
+
 
 
 
