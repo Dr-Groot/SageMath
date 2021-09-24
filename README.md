@@ -126,6 +126,27 @@ Now lets look over to the Total Edges we have:
 
 ![Screenshot 2021-09-24 at 9 34 08 PM](https://user-images.githubusercontent.com/63160825/134706223-e6989487-3b21-4814-ac37-54c9e4da098d.png)
 
+if i want a Graph with 0 vertex connected to 1,2,3,4,5,6 and 7 
+Then:
+
+![Screenshot 2021-09-24 at 9 49 02 PM](https://user-images.githubusercontent.com/63160825/134708167-373c25cf-1bd3-431e-ad90-74da107d6840.png)
+
+Want a Graph with vertex 0 connected to 1, 2 and 1 to 2,3 and 2 to 3
+So then:
+
+![Screenshot 2021-09-24 at 9 51 48 PM](https://user-images.githubusercontent.com/63160825/134708477-a6c8495f-662c-4b7e-8ea7-f0042a3908f2.png)
+
+Giving each edge a name, we have to write like:
+
+**G = Graph({0:{1:'x',2:'z', 3:'a'}, 2:{5:'out'}})** and with that we have to specfy **G.show(edge_label=True)** to ensure labels are visible.
+
+![Screenshot 2021-09-24 at 10 06 45 PM](https://user-images.githubusercontent.com/63160825/134710382-bebfb057-b704-4c55-aa8c-073e4f4b26e3.png)
+
+If we want to change the edge name between 0 to 2  as **changed** we can do like this:
+
+**G.add_edge(0,2, label='changed')** and **G.show(edge_label=True)**
+
+![Screenshot 2021-09-24 at 10 13 08 PM](https://user-images.githubusercontent.com/63160825/134711169-ec44e779-29eb-4d60-ad08-17fbe1e83329.png)
 
 
 ## Want to know which command does what?
