@@ -19,3 +19,18 @@ After **SageMath** is installed, see that you have **Jupyter Notebook** if not g
 
 We will be using **Jupyter Notebook** as our primary workspace, So lets get Start now.
 
+<br />
+
+# SageMath for Graph Theory
+
+For making a complete graph we use **graphs.CompleteGraph()** as in arguement we can give the number of vertices or nodes.
+
+For Example:
+
+Lets say we want to make a Complete Graph with 5 vertices then we will go with **graphs.CompleteGraph(5)** on our Jupyter Notebook.
+
+![Screenshot 2021-09-24 at 7 53 47 PM](https://user-images.githubusercontent.com/63160825/134690696-44ace409-b013-4f96-81cc-27d8df47c7a9.png)
+
+
+
+
