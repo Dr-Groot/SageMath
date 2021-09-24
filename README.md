@@ -21,6 +21,8 @@ We will be using **Jupyter Notebook** as our primary workspace, So lets get Star
 
 <br />
 
+---
+
 # SageMath for Graph Theory
 
 For making a complete graph we use **graphs.CompleteGraph()** as in arguement we can give the number of vertices or nodes.
@@ -39,10 +41,21 @@ Lets make it more excited by building a **3D COMPLETE GRAPH** with 5 Vertice jus
 
 ![Screenshot 2021-09-24 at 8 09 18 PM](https://user-images.githubusercontent.com/63160825/134693275-5e084a5f-3cac-4b5c-b60c-6c2e413aa8d5.png)
 
-Amazing thing about 3d Graph is it you can Rotate it using your cursor. 
-(3D Graphs are supported by Safari and Windows Explorer Web Browser.)
+Amazing thing about 3d Graph is, you can Rotate it using your cursor or you can go with **spin = True** as an arguement of **show3d()**
 
+> 3D Graphs feature is supported by Safari and Internet Explorer Web Browser and JDK should be installed.
 
+<br />
 
+**NOW BUILDING PETERSEN GRAPH**
 
+For this we have to go wtih **graphs.PetersenGraph()** and then **show()**
+
+![Screenshot 2021-09-24 at 8 25 15 PM](https://user-images.githubusercontent.com/63160825/134695905-4b4454e0-a270-4889-b5b2-f8dcb9388475.png)
+
+And For 3d we will go with same command **show3d()**
+
+![Screenshot 2021-09-24 at 8 27 09 PM](https://user-images.githubusercontent.com/63160825/134696220-78620f6d-f42a-43d7-b8f8-fa0a6b43f263.png)
+
+Basically 3D graphs are used for finding Isomorphism or comparing two graphs together.
 
