@@ -27,6 +27,8 @@ We will be using **Jupyter Notebook** as our primary workspace, So lets get Star
 
 For making a complete graph we use **graphs.CompleteGraph()** as in arguement we can give the number of vertices or nodes.
 
+ A Complete Graph is a graph in which all nodes are connected to all other nodes.
+
 For Example:
 
 Lets say we want to make a Complete Graph with 5 vertices then we will go with **graphs.CompleteGraph(5)** on our Jupyter Notebook.
@@ -47,7 +49,7 @@ Amazing thing about 3d Graph is, you can Rotate it using your cursor or you can 
 
 <br />
 
-**NOW BUILDING PETERSEN GRAPH**
+**PETERSEN GRAPH**
 
 The Petersen Graph is a named graph that consists of 10 vertices and 15 edges, usually drawn as a five-point star embedded in a pentagon.
 
@@ -62,4 +64,31 @@ And For 3d we will go with same command **show3d()**
 ![Screenshot 2021-09-24 at 8 27 09 PM](https://user-images.githubusercontent.com/63160825/134696220-78620f6d-f42a-43d7-b8f8-fa0a6b43f263.png)
 
 Basically 3D graphs are used for finding Isomorphism or comparing two graphs together.
+
+<br />
+
+**CUBE GRAPH**
+
+Just go with **graphs.CubeGraph(n)**
+
+Return the n-cube graph, also called the hypercube in n dimensions.
+
+The hypercube in n dimension is build upon the binary strings on n bits, two of them being adjacent if they differ in exactly one bit.
+Hence, the distance between two vertices in the hypercube is the Hamming distance.
+
+![Screenshot 2021-09-24 at 8 41 02 PM](https://user-images.githubusercontent.com/63160825/134698392-b52d41b4-32c7-4a96-ae89-ffd6b6929c06.png)
+
+## Want to know which command does what?
+
+Its easy to find this just give **?** after each command to know about what it does.
+
+Lets say whats **graphs.CompleteGraph()** do we just write **graphs.CompleteGraph?** and we get a pop up window like this -
+
+![Screenshot 2021-09-24 at 8 44 27 PM](https://user-images.githubusercontent.com/63160825/134698878-6ab1eada-f6fc-47f6-b397-29b00714ea9b.png)
+
+Following with the instructions how to use this following statement.
+
+
+
+
 
