@@ -94,6 +94,8 @@ I can proove that both can create an Empty Graph by comparing them:
 ![Screenshot 2021-09-24 at 9 08 37 PM](https://user-images.githubusercontent.com/63160825/134702573-0bf83132-4b01-4785-ab6c-30c80d51e7d4.png)
 
 
+**LETS PLAY WITH THE GRAPHS**
+
 Now if i want to create a graph with 5 vertex, we just go with **Graph(5)** :
 
 ![Screenshot 2021-09-24 at 9 12 41 PM](https://user-images.githubusercontent.com/63160825/134703235-6dd2f3d3-75f4-4c61-bb25-ef9f65ae56b8.png)
@@ -107,6 +109,22 @@ Something is like missing out, Edges Right!
 So if we want to add edge between vertex 0 and 1 then we will go with **g.add_edge(0, 1)**
 
 ![Screenshot 2021-09-24 at 9 19 33 PM](https://user-images.githubusercontent.com/63160825/134704195-21b20d15-bfc0-43f2-8f4a-c95107a8a9cc.png)
+
+And So on we can go with this command to add edges.
+
+Now lets display the vertex and edges by :
+
+![Screenshot 2021-09-24 at 9 26 50 PM](https://user-images.githubusercontent.com/63160825/134705185-225d2503-4963-46e0-9f37-90b7e7e3558b.png)
+
+It is showing 0 and 1 edges that i have created now.
+
+We can add multiple Edges by :
+
+![Screenshot 2021-09-24 at 9 32 26 PM](https://user-images.githubusercontent.com/63160825/134706003-f3a01754-44b9-4555-9c7d-72005ccd4369.png)
+
+Now lets look over to the Total Edges we have:
+
+![Screenshot 2021-09-24 at 9 34 08 PM](https://user-images.githubusercontent.com/63160825/134706223-e6989487-3b21-4814-ac37-54c9e4da098d.png)
 
 
 
