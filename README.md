@@ -1,4 +1,4 @@
-## Welcome to Sage Math for Graph Theory.
+# Welcome to Sage Math for Graph Theory.
 
 ---
 > Follow us on [Instagram](https://www.instagram.com/datascience.drgroot/) || 
@@ -9,7 +9,7 @@
 
 <br />
 
-# Installation
+## Installation
 
 For MacOS and Window go with [Download SageMath](https://www.sagemath.org/download.html) to Download the Software, its open source so no trouble in downloading.
 
@@ -23,7 +23,7 @@ We will be using **Jupyter Notebook** as our primary workspace, So lets get Star
 
 ---
 
-# SageMath for Graph Theory
+## SageMath for Graph Theory
 
 For making a complete graph we use **graphs.CompleteGraph()** as in arguement we can give the number of vertices or nodes.
 
@@ -48,6 +48,10 @@ Amazing thing about 3d Graph is, you can Rotate it using your cursor or you can 
 <br />
 
 **NOW BUILDING PETERSEN GRAPH**
+
+The Petersen Graph is a named graph that consists of 10 vertices and 15 edges, usually drawn as a five-point star embedded in a pentagon.
+
+The Petersen Graph is a common counterexample. For example, it is not Hamiltonian.
 
 For this we have to go wtih **graphs.PetersenGraph()** and then **show()**
 
