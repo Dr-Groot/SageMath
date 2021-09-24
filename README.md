@@ -180,6 +180,34 @@ If we want to change the edge name between 0 to 2  as **changed** we can do like
 
 ![Screenshot 2021-09-24 at 10 13 08 PM](https://user-images.githubusercontent.com/63160825/134711169-ec44e779-29eb-4d60-ad08-17fbe1e83329.png)
 
+<br />
+
+If we want to find out the degree of a vertex, then we use **.degree(n)** where n is a vertex.
+
+![Screenshot 2021-09-24 at 10 47 19 PM](https://user-images.githubusercontent.com/63160825/134715284-bcc905b8-36ea-4150-8f74-b43990314202.png)
+
+<br />
+
+To find the neighborhood of the vertex, we use **.neighbors(n)**, where n is the vertex.
+
+![Screenshot 2021-09-24 at 10 51 09 PM](https://user-images.githubusercontent.com/63160825/134715689-6de4cf73-ac76-4936-a006-cbeeec381788.png)
+
+<br />
+
+Getting the Adjacent Matrix of the Graph, by using **.adjacency_matrix()**.
+
+![Screenshot 2021-09-24 at 10 54 35 PM](https://user-images.githubusercontent.com/63160825/134716050-a3cc8b11-0282-4436-b07e-8dd2279fc3ea.png)
+
+<br />
+
+Getting the Incidence Matrix of the Graph, by using **.incidence_matrix()**.
+
+![Screenshot 2021-09-24 at 10 56 14 PM](https://user-images.githubusercontent.com/63160825/134716254-d7db29b1-18b7-4ad6-98aa-0323e2fdb6cf.png)
+
+<br />
+
+
+
 
 ## Want to know which command does what?
 
