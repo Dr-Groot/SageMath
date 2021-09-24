@@ -78,6 +78,38 @@ Hence, the distance between two vertices in the hypercube is the Hamming distanc
 
 ![Screenshot 2021-09-24 at 8 41 02 PM](https://user-images.githubusercontent.com/63160825/134698392-b52d41b4-32c7-4a96-ae89-ffd6b6929c06.png)
 
+And for 3d Graph version we will go with **show.3d()** and we will get :
+ 
+![Screenshot 2021-09-24 at 8 48 30 PM](https://user-images.githubusercontent.com/63160825/134699520-1c93f7ab-e063-4f9e-b404-4111f41e4a38.png)
+
+> Cube Graph are use in CPU's now they gave small little CPU's as you can in those node and they are connected to each other and this mean of quad core dual core and so on. 
+
+
+**EMPTY GRAPH**
+
+Now lets create an empty graph wich means graph of 0 vertices, it is created by **Graph()** or by **graphs.EmptyGraph()**.
+
+I can proove that both can create an Empty Graph by comparing them:
+
+![Screenshot 2021-09-24 at 9 08 37 PM](https://user-images.githubusercontent.com/63160825/134702573-0bf83132-4b01-4785-ab6c-30c80d51e7d4.png)
+
+
+Now if i want to create a graph with 5 vertex, we just go with **Graph(5)** :
+
+![Screenshot 2021-09-24 at 9 12 41 PM](https://user-images.githubusercontent.com/63160825/134703235-6dd2f3d3-75f4-4c61-bb25-ef9f65ae56b8.png)
+
+We can add vertex to the **Graph G** by **g.add_vertex(6)** and then display **g** 
+
+![Screenshot 2021-09-24 at 9 17 00 PM](https://user-images.githubusercontent.com/63160825/134703831-526eb967-b20c-4f5f-8d70-62873909c797.png)
+
+Something is like missing out, Edges Right!
+
+So if we want to add edge between vertex 0 and 1 then we will go with **g.add_edge(0, 1)**
+
+![Screenshot 2021-09-24 at 9 19 33 PM](https://user-images.githubusercontent.com/63160825/134704195-21b20d15-bfc0-43f2-8f4a-c95107a8a9cc.png)
+
+
+
 ## Want to know which command does what?
 
 Its easy to find this just give **?** after each command to know about what it does.
