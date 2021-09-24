@@ -35,8 +35,6 @@ Lets say we want to make a Complete Graph with 5 vertices then we will go with *
 
 ![Screenshot 2021-09-24 at 7 53 47 PM](https://user-images.githubusercontent.com/63160825/134690696-44ace409-b013-4f96-81cc-27d8df47c7a9.png) 
 
-
-
 Lets define a variable K5 and store **graphs.CompleteGraph(5)** in it. And to display the K5 we use **K5.show()**
 
 ![Screenshot 2021-09-24 at 7 56 50 PM](https://user-images.githubusercontent.com/63160825/134691186-8331ed54-af11-47d3-8619-06bb58b1c956.png)
@@ -96,11 +94,13 @@ I can proove that both can create an Empty Graph by comparing them:
 ![Screenshot 2021-09-24 at 9 08 37 PM](https://user-images.githubusercontent.com/63160825/134702573-0bf83132-4b01-4785-ab6c-30c80d51e7d4.png)
 
 
-**LETS PLAY WITH THE GRAPHS**
+## LETS PLAY WITH THE GRAPHS
 
 Now if i want to create a graph with 5 vertex, we just go with **Graph(5)** :
 
 ![Screenshot 2021-09-24 at 9 12 41 PM](https://user-images.githubusercontent.com/63160825/134703235-6dd2f3d3-75f4-4c61-bb25-ef9f65ae56b8.png)
+
+
 
 We can add vertex to the **Graph G** by **g.add_vertex(6)** and then display **g** 
 
