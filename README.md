@@ -207,7 +207,25 @@ Getting the Incidence Matrix of the Graph, by using **.incidence_matrix()**.
 
 <br />
 
+Now other type of Graph is **DiGraph**, for that use **Digraph()**
 
+![Screenshot 2021-09-27 at 9 20 44 PM](https://user-images.githubusercontent.com/63160825/134942251-c67cf8f4-3fa6-4a62-ad7a-74f8eff6fa3e.png)
+
+you can also go for 3d version of it by **.show3d()**
+
+<br />
+
+For builting a multigraph with multi edges:
+
+![Screenshot 2021-09-27 at 9 30 06 PM](https://user-images.githubusercontent.com/63160825/134943788-049e8bfa-cebc-4434-9c44-af0a6e8f21af.png)
+
+<br />
+
+To draw **Ladder Graph** we use function **graphs.LadderGraph()**
+
+![Screenshot 2021-09-27 at 9 40 11 PM](https://user-images.githubusercontent.com/63160825/134945460-8d124c43-ba91-4b97-a18e-898c1e2b9e54.png)
+
+<br />
 
 
 ## Want to know which command does what?
@@ -217,6 +235,7 @@ Its easy to find this just give **?** after each command to know about what it d
 Lets say whats **graphs.CompleteGraph()** do we just write **graphs.CompleteGraph?** and we get a pop up window like this -
 
 ![Screenshot 2021-09-24 at 8 44 27 PM](https://user-images.githubusercontent.com/63160825/134698878-6ab1eada-f6fc-47f6-b397-29b00714ea9b.png)
+
 
 Following with the instructions how to use this following statement.
 
